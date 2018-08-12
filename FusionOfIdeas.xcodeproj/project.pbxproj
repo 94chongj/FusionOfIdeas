@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BB4540B6C6AB4E54978B069 /* Pods_FusionOfIdeas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7897D97A5FD0FAD5FA224C /* Pods_FusionOfIdeas.framework */; };
 		FD2BBA22211FB44C0008D210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BBA21211FB44C0008D210 /* AppDelegate.swift */; };
-		FD2BBA24211FB44C0008D210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BBA23211FB44C0008D210 /* ViewController.swift */; };
+		FD2BBA24211FB44C0008D210 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BBA23211FB44C0008D210 /* TodoListViewController.swift */; };
 		FD2BBA27211FB44C0008D210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2BBA25211FB44C0008D210 /* Main.storyboard */; };
-		FD2BBA2A211FB44C0008D210 /* FusionOfIdeas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD2BBA28211FB44C0008D210 /* FusionOfIdeas.xcdatamodeld */; };
 		FD2BBA2C211FB44E0008D210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2BBA2B211FB44E0008D210 /* Assets.xcassets */; };
 		FD2BBA2F211FB44E0008D210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2BBA2D211FB44E0008D210 /* LaunchScreen.storyboard */; };
+		FD2BBA3B211FB5130008D210 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BBA3A211FB5130008D210 /* Item.swift */; };
+		FD2BBA3D211FB51E0008D210 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BBA3C211FB51E0008D210 /* Category.swift */; };
+		FD2BBA3F211FB5330008D210 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BBA3E211FB5330008D210 /* CategoryViewController.swift */; };
+		FD2BBA41211FDAE50008D210 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2BBA40211FDAE50008D210 /* SwipeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0426B8027EA3F20F47C6353D /* Pods-FusionOfIdeas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FusionOfIdeas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FusionOfIdeas/Pods-FusionOfIdeas.debug.xcconfig"; sourceTree = "<group>"; };
+		2F7897D97A5FD0FAD5FA224C /* Pods_FusionOfIdeas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FusionOfIdeas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DAD0024D3467A0B12CA0B2 /* Pods-FusionOfIdeas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FusionOfIdeas.release.xcconfig"; path = "Pods/Target Support Files/Pods-FusionOfIdeas/Pods-FusionOfIdeas.release.xcconfig"; sourceTree = "<group>"; };
 		FD2BBA1E211FB44C0008D210 /* FusionOfIdeas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FusionOfIdeas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2BBA21211FB44C0008D210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD2BBA23211FB44C0008D210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD2BBA23211FB44C0008D210 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		FD2BBA26211FB44C0008D210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FD2BBA29211FB44C0008D210 /* FusionOfIdeas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FusionOfIdeas.xcdatamodel; sourceTree = "<group>"; };
 		FD2BBA2B211FB44E0008D210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD2BBA2E211FB44E0008D210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD2BBA30211FB44E0008D210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD2BBA3A211FB5130008D210 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FD2BBA3C211FB51E0008D210 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		FD2BBA3E211FB5330008D210 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		FD2BBA40211FDAE50008D210 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB4540B6C6AB4E54978B069 /* Pods_FusionOfIdeas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A68ADFBF4F8640AAD21BBA8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0426B8027EA3F20F47C6353D /* Pods-FusionOfIdeas.debug.xcconfig */,
+				B9DAD0024D3467A0B12CA0B2 /* Pods-FusionOfIdeas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3DB1BC7AFB9E0D5DE5072E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F7897D97A5FD0FAD5FA224C /* Pods_FusionOfIdeas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD2BBA15211FB44C0008D210 = {
 			isa = PBXGroup;
 			children = (
 				FD2BBA20211FB44C0008D210 /* FusionOfIdeas */,
 				FD2BBA1F211FB44C0008D210 /* Products */,
+				6A68ADFBF4F8640AAD21BBA8 /* Pods */,
+				D3DB1BC7AFB9E0D5DE5072E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +87,41 @@
 			isa = PBXGroup;
 			children = (
 				FD2BBA21211FB44C0008D210 /* AppDelegate.swift */,
-				FD2BBA23211FB44C0008D210 /* ViewController.swift */,
-				FD2BBA25211FB44C0008D210 /* Main.storyboard */,
+				FD2BBA39211FB4810008D210 /* View */,
+				FD2BBA38211FB47E0008D210 /* Model */,
+				FD2BBA36211FB4720008D210 /* Controller */,
 				FD2BBA2B211FB44E0008D210 /* Assets.xcassets */,
 				FD2BBA2D211FB44E0008D210 /* LaunchScreen.storyboard */,
 				FD2BBA30211FB44E0008D210 /* Info.plist */,
-				FD2BBA28211FB44C0008D210 /* FusionOfIdeas.xcdatamodeld */,
 			);
 			path = FusionOfIdeas;
+			sourceTree = "<group>";
+		};
+		FD2BBA36211FB4720008D210 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD2BBA23211FB44C0008D210 /* TodoListViewController.swift */,
+				FD2BBA3E211FB5330008D210 /* CategoryViewController.swift */,
+				FD2BBA40211FDAE50008D210 /* SwipeTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD2BBA38211FB47E0008D210 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD2BBA3A211FB5130008D210 /* Item.swift */,
+				FD2BBA3C211FB51E0008D210 /* Category.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD2BBA39211FB4810008D210 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD2BBA25211FB44C0008D210 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD2BBA33211FB44E0008D210 /* Build configuration list for PBXNativeTarget "FusionOfIdeas" */;
 			buildPhases = (
+				DD0145DBB213AAC922DD26B3 /* [CP] Check Pods Manifest.lock */,
 				FD2BBA1A211FB44C0008D210 /* Sources */,
 				FD2BBA1B211FB44C0008D210 /* Frameworks */,
 				FD2BBA1C211FB44C0008D210 /* Resources */,
+				DA7022B6BDFA2BE38040CBE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +192,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DA7022B6BDFA2BE38040CBE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FusionOfIdeas/Pods-FusionOfIdeas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FusionOfIdeas/Pods-FusionOfIdeas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD0145DBB213AAC922DD26B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FusionOfIdeas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD2BBA1A211FB44C0008D210 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2BBA2A211FB44C0008D210 /* FusionOfIdeas.xcdatamodeld in Sources */,
-				FD2BBA24211FB44C0008D210 /* ViewController.swift in Sources */,
+				FD2BBA3B211FB5130008D210 /* Item.swift in Sources */,
+				FD2BBA3D211FB51E0008D210 /* Category.swift in Sources */,
+				FD2BBA24211FB44C0008D210 /* TodoListViewController.swift in Sources */,
+				FD2BBA3F211FB5330008D210 /* CategoryViewController.swift in Sources */,
+				FD2BBA41211FDAE50008D210 /* SwipeTableViewController.swift in Sources */,
 				FD2BBA22211FB44C0008D210 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +389,7 @@
 		};
 		FD2BBA34211FB44E0008D210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0426B8027EA3F20F47C6353D /* Pods-FusionOfIdeas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +407,7 @@
 		};
 		FD2BBA35211FB44E0008D210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DAD0024D3467A0B12CA0B2 /* Pods-FusionOfIdeas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -336,19 +445,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		FD2BBA28211FB44C0008D210 /* FusionOfIdeas.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				FD2BBA29211FB44C0008D210 /* FusionOfIdeas.xcdatamodel */,
-			);
-			currentVersion = FD2BBA29211FB44C0008D210 /* FusionOfIdeas.xcdatamodel */;
-			path = FusionOfIdeas.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = FD2BBA16211FB44C0008D210 /* Project object */;
 }
